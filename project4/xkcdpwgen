@@ -78,6 +78,6 @@ for _ in range(num_s):
 	usr_pw.insert(sint, p)
 
 
-print(usr_pw)
+#print(usr_pw)
 
 print(''.join(e for e in usr_pw))
