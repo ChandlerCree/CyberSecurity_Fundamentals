@@ -1,0 +1,18 @@
+# Last Modified: Wed Mar 30 15:15:42 2022
+#include <tunables/global>
+
+/home/creed/cy2550/cy2550/project6/p2 flags=(audit) {
+  #include <abstractions/base>
+  network tcp,
+  /etc/passwd r,
+  /etc/hosts r,
+  /etc/hostid r,
+  /etc/timezone r,
+  /home/creed/cy2550/cy2550/project6/p2 mrw,
+  /proc/uptime r,
+  /var/log/syslog r,
+  /tmp/project* rw,
+  owner /home/*/.project2/config w,
+  owner /home/*/cy2550/cy2550/project6/template r,
+}
+~
